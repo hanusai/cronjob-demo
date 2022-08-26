@@ -14,7 +14,7 @@ name: "CodeQL"
 on:
 #Triggers the workflow every 5 minutes
   schedule:
-    - cron: '* */1 * * *'
+    - cron: '0 */1 * * *'
 
 jobs:
   analyze:

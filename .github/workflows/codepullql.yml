@@ -12,8 +12,10 @@
 name: "CodeQL"
 
 on:
-  #push:
-    #branches: [ "master" ]
+  push:
+    branches: [ "master" ]
+    path-ignore:
+      - 'README.md'
   pull_request:
     branches: [ "master" ]
     types:

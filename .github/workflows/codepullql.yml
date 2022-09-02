@@ -16,9 +16,9 @@ on:
     branches: [ "master" ]
     path:
       - 'Web.config'
-  pull_request:
-    branches: [ "master" ]
-    types:
+  #pull_request:
+    #branches: [ "master" ]
+    #types:
   
 
 jobs:

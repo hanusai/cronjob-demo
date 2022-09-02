@@ -16,10 +16,10 @@ on:
     branches: [ "master" ]
     path:
       - 'Web.config'
-  #pull_request:
-    #branches: [ "master" ]
-    #types:
-      - closed
+  pull_request:
+    branches: [ "master" ]
+    types:
+  
 
 jobs:
   analyze:

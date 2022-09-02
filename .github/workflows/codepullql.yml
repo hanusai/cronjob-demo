@@ -14,8 +14,8 @@ name: "CodeQL"
 on:
   push:
     branches: [ "master" ]
-    path-ignore:
-      - 'README.md'
+    path:
+      - 'Web.config'
   #pull_request:
     #branches: [ "master" ]
     #types:

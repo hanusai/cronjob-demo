@@ -14,8 +14,9 @@ name: "CodeQL"
 on:
   push:
     branches: [ "master" ]
-    path:
+    paths:
       - '**.config'
+      - '**.ico'
   #pull_request:
     #branches: [ "master" ]
     #types:

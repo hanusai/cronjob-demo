@@ -1,0 +1,11 @@
+@ECHO OFF
+
+
+SET Source=c:\batchfile\batch-Script1\Source\file*
+
+
+SET Desination=c:\batchfile\pipeline_tocopyfiles_using_bat\test1.zip
+SET zipUtility="C:\Program Files\7-Zip\7z.exe"
+
+
+%zipUtility% a "%Desination%" "%Source%"
